@@ -7,7 +7,8 @@ using System.Runtime.InteropServices;
 // связанные с этой сборкой.
 // Глобальные атрибуты для всей сборки.    
 [assembly: AssemblyTitle("AssemblyAttributes")]         // Имя сборки.
-[assembly: AssemblyDescription("")]                     // Описание сборки.
+[assembly: AssemblyDescription(
+    "Пример атрибутов для всей сборки")]                // Описание сборки.
 [assembly: AssemblyConfiguration("")]                   // Конфигурация, например, Release или Debug.
 [assembly: AssemblyCompany("VovikDoc")]  				// Имя компании разработчика.
 [assembly: AssemblyProduct("AssemblyAttributes")]       // Имя продукта.

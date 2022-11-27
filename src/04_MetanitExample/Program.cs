@@ -3,8 +3,8 @@ Person bob = new Person("Bob", 16);
 bool tomIsValid = ValidateUser(tom);    // true
 bool bobIsValid = ValidateUser(bob);    // false
 
-Console.WriteLine($"Результат проверки Тома: {tomIsValid}");
-Console.WriteLine($"Результат проверки Боба: {bobIsValid}");
+WriteLine($"Результат проверки Тома: {tomIsValid}");
+WriteLine($"Результат проверки Боба: {bobIsValid}");
 
 ReadKey();
 
@@ -28,7 +28,7 @@ bool ValidateUser(Person person)
 class AgeValidationAttribute : Attribute
 {
     public int Age { get; }
-    public AgeValidationAttribute() { }
+   // public AgeValidationAttribute() { }
     public AgeValidationAttribute(int age) => Age = age;
 }
 

@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AssemblyAttributes
 {
@@ -11,7 +7,7 @@ namespace AssemblyAttributes
     {
         static void Main()
         {
-            // Получение сборки (Assembly assembly) код которой выполняется в данный моемент.
+            // Получение сборки (Assembly assembly) код которой выполняется в данный момент.
             Assembly assembly = Assembly.GetExecutingAssembly();
             // Полное имя сборки.
             Console.WriteLine($"Assembly Full Name:\n{assembly.FullName}");
